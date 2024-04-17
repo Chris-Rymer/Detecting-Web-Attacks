@@ -21,9 +21,10 @@ Investigate Multiple Suspected Web Attacks by Searching Web Server Access Logs f
 <p align="center">
 Example 1: <br/>
 <img src="https://i.imgur.com/tqLWapQ.png" height="80%" width="80%" alt="Web Attacks "/>
+<img src="https://i.imgur.com/aME2u4h.png" height="80%" width="80%" alt="Web Attacks "/>
 <br />
 
-Beginning at line 145, evidence suggests an SQL injection attack originating from IP address 192.168.31.167. This is indicated by the presence of common SQL terms such as 'UNION' and 'SELECT.' Regrettably, the attack seems to have succeeded, as evidenced by the successful HTTP response status code and a noticeable increase in response size.
+Beginning at line 145, evidence suggests an SQL injection attack originating from IP address 192.168.31.167. This is indicated by the presence of common SQL terms such as 'UNION', 'SELECT' and '1=1'. Regrettably, the attack seems to have succeeded, as evidenced by the successful HTTP response status code and a noticeable increase in response size.
 <br />
 
 <p align="center">
@@ -53,6 +54,7 @@ Starting at line 226, there are signs of an IDOR attack originating from IP addr
 <p align="center">
 Example 5: <br/>
 <img src="https://i.imgur.com/VJydrRF.png" height="80%" width="80%" alt="Web Attacks "/>
+<img src="https://i.imgur.com/a8MXD9F.png" height="80%" width="80%" alt="Web Attacks "/>
 <br />
 
 Beginning at line 185, there are indications of a Cross-Site Scripting (XSS) attack originating from IP address 192.168.31.183. This is evident from injected code within the 'name' field on the website. The presence of a successful HTTP response status code and the observed change in response size suggest that this attack has indeed been successful.
