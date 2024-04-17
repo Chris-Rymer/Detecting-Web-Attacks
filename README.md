@@ -1,7 +1,7 @@
 <h1>Detecting Web Attacks</h1>
 
 <h2>Description</h2>
-Investigate Multiple Suspected Web Attacks by Searching Web Server Access Logs for Common Attacks. 
+Investigate Multiple Suspected Web Attacks by Searching Web Server Access Logs for Evidence of Common Attacks. 
 <br />
 
 
