@@ -52,14 +52,14 @@ Starting at line 226, there are signs of an IDOR attack originating from IP addr
 
 <p align="center">
 Example 5: <br/>
-<img src="https://i.imgur.com/iUPNSyn.png" height="80%" width="80%" alt="Web Attacks "/>
+<img src="https://i.imgur.com/VJydrRF.png" height="80%" width="80%" alt="Web Attacks "/>
 <br />
 
-Starting at line 226, there are signs of an IDOR attack originating from IP address 192.168.31.174. This is evidenced by multiple requests for the same page, each with changing 'id' parameters. The successful HTTP response status code and the observed change in response size suggest that this attack was indeed successful.
+Beginning at line 185, there are indications of a Cross-Site Scripting (XSS) attack originating from IP address 192.168.31.183. This is evident from injected code within the 'name' field on the website. The presence of a successful HTTP response status code and the observed change in response size suggest that this attack has indeed been successful.
 <br />
 
-<h2>Final Report</h2>
-After thorough investigation, it is evident that this email constitutes a phishing attempt. There is no indication that it was sent by PayPal, and the included links have been identified as known phishing attempts. Therefore, I recommend deleting this email immediately and performing remediation if any client has visited the URL link.
+<h2>Conclusion</h2>
+It's evident that sanitizing user input is crucial to prevent many of these common attacks and should be a fundamental part of secure coding practices. This measure should encompass not only form data but also URL parameters, headers, and any other form of user input.
 </p>
 
 <!--
